@@ -1,0 +1,18 @@
+
+
+<ngx-charts-line-chart *ngIf="chartPoints.length > 0"
+[view]="view"
+[scheme]="'cool'"
+[results]="chartPoints"
+[gradient]="gradient"
+[xAxis]="showXAxis"
+[yAxis]="showYAxis"
+[legend]="showLegend"
+[showXAxisLabel]="showXAxisLabel"
+[showYAxisLabel]="showYAxisLabel"
+[xAxisLabel]="xAxisLabel"
+[yAxisLabel]="yAxisLabel"
+[autoScale]="autoScale"
+[timeline]="true"
+(select)="onSelect($event)">
+</ngx-charts-line-chart>

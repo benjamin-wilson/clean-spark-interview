@@ -1,1 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
+html{
+    font-family: Roboto;
+}
+html, body{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.axis {
+    font: 10px sans-serif;
+  }
+  
+  .axis path,
+  .axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+  }
+  
+  .axis-title {
+    fill: none;
+    stroke: black;
+    stroke-width: 0.5px;
+  }
+  
+  
+  .axis--x path {
+    /*display: none;*/
+  }
+  
+  .line {
+    fill: none;
+    stroke: steelblue;
+    stroke-width: 1.5px;
+  }
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";

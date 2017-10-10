@@ -1,0 +1,21 @@
+md-sidenav-container{
+    height: 100%;
+}
+.dashboard{
+    background-color: #e8e8e8;
+}
+.sidenav-content{
+    padding:20px;
+}
+
+.radio-group {
+    display: inline-flex;
+    flex-direction: column;
+}
+  
+.radio-button {
+    margin: 5px;
+}
+.sidenav-content > div {
+    padding-top: 30px;
+}

@@ -1,0 +1,8 @@
+{
+    "/api/*": {
+        "target": "http://cs-mock-timeseries-api.azurewebsites.net",
+        "secure": false,
+        "changeOrigin": true,
+        "logLevel": "debug"
+    }
+}
